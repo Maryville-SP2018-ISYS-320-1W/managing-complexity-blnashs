@@ -1,6 +1,6 @@
 /*
   	ISYS 320
-  	Name(s):
+  	Name(s): Nash
   	Date: 
 */
 
@@ -18,7 +18,9 @@ public class P1_OutputLoopResult {
 			finalResult = finalResult + i * i;
 		}
 		
-		System.out.println( "Final result is: " + finalResult );
+		System.out.println("Final result is: " );
+		System.out.println(finalResult + i * i);
+		
 	}
 
 }
